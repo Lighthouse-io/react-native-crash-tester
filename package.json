@@ -1,5 +1,5 @@
 {
-  "name": "react-native-crash-tester",
+  "name": "@lighthouse/react-native-crash-tester",
   "version": "1.0.0",
   "description": "Deliberately crash your app. Good for testing crash reporting services.",
   "main": "lib/commonjs/index",
@@ -36,7 +36,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/cwhenderson20/react-native-crash-tester",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwhenderson20/react-native-crash-tester.git"
+  },
   "author": "Chris Henderson <cwhenderson20@gmail.com> (https://github.com/cwhenderson20)",
   "license": "MIT",
   "bugs": {
@@ -150,5 +153,8 @@
         }
       ]
     ]
+  },
+  "directories": {
+    "example": "example"
   }
 }
